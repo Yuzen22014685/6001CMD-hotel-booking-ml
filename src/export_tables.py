@@ -19,6 +19,9 @@ TITLES = {
     "table1.1_feature_overview": "Overview of Dataset Features, Types, Missing Values and Descriptions",
     "table1.2_cancellation_by_hotel": "Cancellation Rate by Hotel Type",
     "table1.3_challenge_scan": "Dataset Challenge Scan",
+    "table2.1_supervised_results": "Supervised Learning Performance on the Test Set",
+    "table2.2_unsupervised_results": "K-Means Clustering Evaluated Against the True Labels",
+    "table2.3_scalability_data_requirements": "Training Time and Performance by Training Set Size",
 }
 
 FONT_NAME = "Times New Roman"

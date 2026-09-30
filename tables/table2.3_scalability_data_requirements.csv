@@ -1,0 +1,16 @@
+Model,Training rows,Training time (s),Test F1-score,Test ARI
+Logistic Regression,4775,0.08,0.7293,
+Random Forest,4775,0.55,0.78,
+K-Means (k = 2),4775,0.41,,0.0063
+Logistic Regression,9551,0.16,0.7342,
+Random Forest,9551,1.13,0.7982,
+K-Means (k = 2),9551,0.32,,0.0059
+Logistic Regression,23878,0.27,0.7379,
+Random Forest,23878,3.71,0.8192,
+K-Means (k = 2),23878,0.42,,0.0072
+Logistic Regression,47756,0.57,0.7375,
+Random Forest,47756,10.81,0.8359,
+K-Means (k = 2),47756,0.68,,0.0077
+Logistic Regression,95512,1.96,0.7368,
+Random Forest,95512,31.38,0.8527,
+K-Means (k = 2),95512,0.92,,0.0087
