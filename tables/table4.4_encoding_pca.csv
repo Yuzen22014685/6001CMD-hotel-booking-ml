@@ -1,0 +1,9 @@
+Encoding,Model,Features,F1,Precision,Recall,ROC-AUC,PR-AUC,Train time (s)
+One-hot (all levels),Logistic Regression,552,0.7775,0.8202,0.7391,0.9188,0.8871,2.21
+One-hot (rare levels grouped),Logistic Regression,110,0.7739,0.8146,0.737,0.9165,0.884,1.89
+"Target (country, agent) + one-hot (others)",Logistic Regression,69,0.763,0.8277,0.7077,0.9109,0.8808,1.36
+One-hot (grouped) + PCA 95%,Logistic Regression,110 -> 37 components,0.7567,0.8036,0.7149,0.9023,0.8691,0.86
+One-hot (rare levels grouped),Random Forest,110,0.822,0.8687,0.78,0.9429,0.9195,20.08
+"Target (country, agent) + one-hot (others)",Random Forest,69,0.8217,0.8657,0.7819,0.9431,0.919,1.76
+Ordinal,Random Forest,32,0.8166,0.8631,0.7748,0.9411,0.9168,1.16
+One-hot (grouped) + PCA 95%,Random Forest,110 -> 37 components,0.7862,0.8637,0.7215,0.9305,0.9008,4.43

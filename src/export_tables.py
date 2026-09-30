@@ -32,6 +32,14 @@ TITLES = {
     "table3.7_redundant_pairs": "Redundant Feature Pairs",
     "table3.8_class_imbalance": "Class Balance Under Different Conditions",
     "table3.9_noise_inconsistency": "Noise and Inconsistency Checks",
+    "table4.1_cleaning_log": "Data Cleaning and Feature Engineering Log",
+    "table4.2_duplicate_handling": "Effect of Split Strategy and Duplicate Handling",
+    "table4.3_transformation": "Effect of Numerical Transformations",
+    "table4.4_encoding_pca": "Effect of Categorical Encoding and PCA",
+    "table4.5_feature_selection": "Effect of Feature Selection",
+    "table4.6_balancing": "Effect of Class Balancing Strategies",
+    "table4.7_final_evaluation": "From Baseline to Final Pipeline",
+    "table4.8_technique_evaluation": "Critical Evaluation of Preprocessing Techniques",
 }
 
 FONT_NAME = "Times New Roman"

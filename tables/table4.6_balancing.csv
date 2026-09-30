@@ -1,0 +1,11 @@
+Balancing,Model,Training rows (0 / 1),F1,Precision,Recall,ROC-AUC,PR-AUC,Train time (s)
+None,Logistic Regression,"60,007 / 35,344",0.7745,0.8176,0.7357,0.9165,0.884,1.36
+None,Random Forest,"60,007 / 35,344",0.8174,0.8624,0.7768,0.9432,0.9187,1.72
+Class weights,Logistic Regression,"60,007 / 35,344",0.7874,0.7468,0.8325,0.9165,0.8826,1.28
+Class weights,Random Forest,"60,007 / 35,344",0.8294,0.8315,0.8273,0.9433,0.9187,1.65
+Random over-sampling,Logistic Regression,"60,007 / 60,007",0.7873,0.7466,0.8327,0.9164,0.8825,1.43
+Random over-sampling,Random Forest,"60,007 / 60,007",0.8265,0.8475,0.8065,0.9424,0.9173,1.98
+Random under-sampling,Logistic Regression,"35,344 / 35,344",0.7844,0.7408,0.8334,0.9167,0.8827,1.01
+Random under-sampling,Random Forest,"35,344 / 35,344",0.8284,0.8008,0.858,0.9428,0.9165,1.21
+SMOTE,Logistic Regression,"60,007 / 60,007",0.7879,0.7487,0.8315,0.9163,0.8825,47.05
+SMOTE,Random Forest,"60,007 / 60,007",0.8214,0.8534,0.7917,0.9419,0.917,2.79

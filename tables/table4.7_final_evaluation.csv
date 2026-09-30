@@ -1,0 +1,9 @@
+Evaluation,Model,F1,Precision,Recall,ROC-AUC,PR-AUC
+"Task 2 baseline (random split, minimal preparation)",Logistic Regression,0.7368,0.8049,0.6793,0.9030,not measured
+"Honest baseline (group split, minimal preparation)",Logistic Regression,0.7561,0.8147,0.7054,0.9081,0.8734
+"Final pipeline (group split, hold-out test)",Logistic Regression,0.7874,0.7468,0.8325,0.9165,0.8826
+"Final pipeline (grouped 5-fold CV, mean ± SD)",Logistic Regression,0.7815 ± 0.0032,0.7472 ± 0.0048,0.8192 ± 0.0081,0.9129 ± 0.0030,0.8770 ± 0.0038
+"Task 2 baseline (random split, minimal preparation)",Random Forest,0.8527,0.8836,0.8239,0.9597,not measured
+"Honest baseline (group split, minimal preparation)",Random Forest,0.8235,0.8690,0.7826,0.9440,0.9207
+"Final pipeline (group split, hold-out test)",Random Forest,0.8294,0.8315,0.8273,0.9433,0.9187
+"Final pipeline (grouped 5-fold CV, mean ± SD)",Random Forest,0.8222 ± 0.0070,0.8272 ± 0.0060,0.8173 ± 0.0093,0.9433 ± 0.0015,0.9167 ± 0.0025

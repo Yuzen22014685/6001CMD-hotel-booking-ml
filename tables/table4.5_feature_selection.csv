@@ -1,0 +1,7 @@
+Selection,Model,Original features,Encoded features used,F1,Precision,Recall,ROC-AUC,PR-AUC,Train time (s)
+All features,Logistic Regression,32,110 of 110,0.7739,0.8146,0.737,0.9165,0.884,1.66
+All features,Random Forest,32,69 of 69,0.8184,0.8625,0.7785,0.9421,0.9179,1.72
+Remove redundant or unreliable features,Logistic Regression,27,102 of 102,0.7745,0.8176,0.7357,0.9165,0.884,1.27
+Remove redundant or unreliable features,Random Forest,27,61 of 61,0.8174,0.8624,0.7768,0.9432,0.9187,1.54
+"Embedded selection (L1 for LR, importance for RF)",Logistic Regression,32,45 of 110,0.7714,0.8165,0.731,0.9157,0.8825,5.75
+"Embedded selection (L1 for LR, importance for RF)",Random Forest,32,35 of 69,0.8204,0.8592,0.785,0.9413,0.9146,2.27
