@@ -1,0 +1,10 @@
+Criterion,Supervised learning,Unsupervised learning
+Learning mechanism,Learns a mapping from features to observed labels by minimising prediction loss,"Discovers structure from feature similarity alone, e.g. minimising within-cluster distance"
+Label dependency,"Requires labels; is_canceled is available for all 119,390 bookings",Ignores labels; discards the most informative variable
+Data requirements,"LR saturates by about 5,000 rows (F1 0.729 to 0.737); RF keeps improving (F1 0.780 to 0.853)",ARI stays at 0.006 to 0.009 regardless of data size
+Scalability,LR roughly linear (0.08 to 1.96 s); RF faster than linear (0.55 to 31.38 s),K-Means under 1 s at all sizes
+Computational complexity,LR: O(n x d) per iteration; RF: O(T x n log n x m) for T trees and m candidate features,K-Means: O(n x k x d x i) for i iterations
+Interpretability,LR gives direction and odds ratios; RF gives importance magnitude only,Clusters describable as segments but not tied to cancellation
+Advantages,Directly optimises the business target; strong performance (RF ROC-AUC 0.960),No labelling cost; reveals customer segments (e.g. 0% and 100% cancellation clusters)
+Limitations,Risk of leakage and overfitting; RF less transparent and costlier to train,Silhouette below 0.10; accuracy equals baseline; Euclidean distance suits mixed data poorly
+Suitable algorithms,"Logistic Regression, Random Forest, gradient boosting","K-Means, K-Prototypes for mixed data"

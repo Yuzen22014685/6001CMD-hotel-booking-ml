@@ -22,6 +22,7 @@ TITLES = {
     "table2.1_supervised_results": "Supervised Learning Performance on the Test Set",
     "table2.2_unsupervised_results": "K-Means Clustering Evaluated Against the True Labels",
     "table2.3_scalability_data_requirements": "Training Time and Performance by Training Set Size",
+    "table2.4_paradigm_summary": "Summary Comparison of Supervised and Unsupervised Learning",
 }
 
 FONT_NAME = "Times New Roman"
