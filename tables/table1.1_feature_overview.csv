@@ -1,33 +1,33 @@
-Feature,Type,Pandas dtype,Unique values,Missing (NaN),'NULL' strings,Example,Description
-hotel,Categorical,str,2,0,0,Resort Hotel,Hotel type: City Hotel or Resort Hotel
-is_canceled,Target (binary),int64,2,0,0,0,"1 if the booking was cancelled, 0 otherwise"
-lead_time,Numerical,int64,479,0,0,342,Days between booking entry and arrival date
-arrival_date_year,Temporal,int64,3,0,0,2015,Year of arrival
-arrival_date_month,Temporal,str,12,0,0,July,Month of arrival
-arrival_date_week_number,Temporal,int64,53,0,0,27,Week number of arrival
-arrival_date_day_of_month,Temporal,int64,31,0,0,1,Day of month of arrival
-stays_in_weekend_nights,Numerical,int64,17,0,0,0,Weekend nights (Sat/Sun) stayed or booked
-stays_in_week_nights,Numerical,int64,35,0,0,0,Weeknights (Mon to Fri) stayed or booked
-adults,Numerical,int64,14,0,0,2,Number of adults
-children,Numerical,float64,5,4,0,0.0,Number of children
-babies,Numerical,int64,5,0,0,0,Number of babies
-meal,Categorical,str,5,0,0,BB,"Meal package booked (BB, HB, FB, SC, Undefined)"
-country,Categorical,str,177,488,0,PRT,Country of origin (ISO 3166-1 alpha-3)
-market_segment,Categorical,str,8,0,0,Direct,"Market segment (e.g. Online TA, Groups)"
-distribution_channel,Categorical,str,5,0,0,Direct,Booking distribution channel
-is_repeated_guest,Binary,int64,2,0,0,0,"1 if the guest has stayed before, 0 otherwise"
-previous_cancellations,Numerical,int64,15,0,0,0,Prior bookings cancelled by the customer
-previous_bookings_not_canceled,Numerical,int64,73,0,0,0,Prior bookings not cancelled by the customer
-reserved_room_type,Categorical,str,10,0,0,C,Room type code reserved (anonymised)
-assigned_room_type,Categorical,str,12,0,0,C,Room type code assigned at check-in (anonymised)
-booking_changes,Numerical,int64,21,0,0,3,Amendments made before check-in or cancellation
-deposit_type,Categorical,str,3,0,0,No Deposit,"Deposit type: No Deposit, Non Refund, Refundable"
-agent,Categorical,float64,333,16340,0,304.0,Travel agency ID (anonymised)
-company,Categorical,float64,352,112593,0,110.0,Paying company ID (anonymised)
-days_in_waiting_list,Numerical,int64,128,0,0,0,Days on the waiting list before confirmation
-customer_type,Categorical,str,4,0,0,Transient,"Contract, Group, Transient or Transient-Party"
-adr,Numerical,float64,8879,0,0,0.0,Average daily rate (lodging revenue / nights)
-required_car_parking_spaces,Numerical,int64,5,0,0,0,Car parking spaces requested
-total_of_special_requests,Numerical,int64,6,0,0,0,Number of special requests made
-reservation_status,Post-outcome (leakage),str,3,0,0,Check-Out,"Final status: Canceled, Check-Out or No-Show"
-reservation_status_date,Post-outcome (leakage),str,926,0,0,2015-07-01,Date the final status was recorded
+Feature,Type,Pandas dtype,Unique values,Missing,Example,Description
+hotel,Categorical,str,2,0,Resort Hotel,Hotel type: City Hotel or Resort Hotel
+is_canceled,Target (binary),int64,2,0,0,"1 if the booking was cancelled, 0 otherwise"
+lead_time,Numerical,int64,479,0,342,Days between booking entry and arrival date
+arrival_date_year,Temporal,int64,3,0,2015,Year of arrival
+arrival_date_month,Temporal,str,12,0,July,Month of arrival
+arrival_date_week_number,Temporal,int64,53,0,27,Week number of arrival
+arrival_date_day_of_month,Temporal,int64,31,0,1,Day of month of arrival
+stays_in_weekend_nights,Numerical,int64,17,0,0,Weekend nights (Sat/Sun) stayed or booked
+stays_in_week_nights,Numerical,int64,35,0,0,Weeknights (Mon to Fri) stayed or booked
+adults,Numerical,int64,14,0,2,Number of adults
+children,Numerical,float64,5,4,0.0,Number of children
+babies,Numerical,int64,5,0,0,Number of babies
+meal,Categorical,str,5,0,BB,"Meal package booked (BB, HB, FB, SC, Undefined)"
+country,Categorical,str,177,488,PRT,Country of origin (ISO 3166-1 alpha-3)
+market_segment,Categorical,str,8,0,Direct,"Market segment (e.g. Online TA, Groups)"
+distribution_channel,Categorical,str,5,0,Direct,Booking distribution channel
+is_repeated_guest,Binary,int64,2,0,0,"1 if the guest has stayed before, 0 otherwise"
+previous_cancellations,Numerical,int64,15,0,0,Prior bookings cancelled by the customer
+previous_bookings_not_canceled,Numerical,int64,73,0,0,Prior bookings not cancelled by the customer
+reserved_room_type,Categorical,str,10,0,C,Room type code reserved (anonymised)
+assigned_room_type,Categorical,str,12,0,C,Room type code assigned at check-in (anonymised)
+booking_changes,Numerical,int64,21,0,3,Amendments made before check-in or cancellation
+deposit_type,Categorical,str,3,0,No Deposit,"Deposit type: No Deposit, Non Refund, Refundable"
+agent,Categorical,float64,333,"16,340",304.0,Travel agency ID (anonymised)
+company,Categorical,float64,352,"112,593",110.0,Paying company ID (anonymised)
+days_in_waiting_list,Numerical,int64,128,0,0,Days on the waiting list before confirmation
+customer_type,Categorical,str,4,0,Transient,"Contract, Group, Transient or Transient-Party"
+adr,Numerical,float64,"8,879",0,0.0,Average daily rate (lodging revenue / nights)
+required_car_parking_spaces,Numerical,int64,5,0,0,Car parking spaces requested
+total_of_special_requests,Numerical,int64,6,0,0,Number of special requests made
+reservation_status,Post-outcome (leakage),str,3,0,Check-Out,"Final status: Canceled, Check-Out or No-Show"
+reservation_status_date,Post-outcome (leakage),str,926,0,2015-07-01,Date the final status was recorded
