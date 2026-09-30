@@ -8,3 +8,4 @@ imbalanced-learn
 statsmodels
 jupyter
 ipykernel
+python-docx
