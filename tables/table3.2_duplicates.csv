@@ -1,0 +1,11 @@
+Check,Result
+Exact duplicate rows (extra copies),"31,994 (26.80%)"
+Rows belonging to a duplicate group,"40,165 (33.64%)"
+Number of duplicate groups,"8,171"
+Largest duplicate group (identical rows),180
+Cancellation rate of extra copies,63.13%
+Cancellation rate of never-duplicated rows,26.22%
+Test rows with an identical copy in training (modelling features),"7,845 (32.85%)"
+Random Forest F1: all test rows,0.8527
+Random Forest F1: test rows seen in training,0.9830
+Random Forest F1: genuinely unseen test rows,0.7024

@@ -1,0 +1,14 @@
+Feature,Mean,Std,Skewness,Kurtosis,Skewness after log1p,Skewness after Yeo-Johnson
+babies,0.01,0.1,24.65,1633.88,11.92,11.28
+previous_cancellations,0.09,0.84,24.46,674.05,7.35,3.93
+previous_bookings_not_canceled,0.14,1.5,23.54,767.21,8.17,5.48
+adults,1.86,0.58,18.32,1352.06,-1.03,0.53
+days_in_waiting_list,2.32,17.59,11.94,186.79,5.75,5.41
+adr,101.83,50.54,10.53,1013.15,-3.74,0.41
+booking_changes,0.22,0.65,6.0,79.39,2.57,1.95
+required_car_parking_spaces,0.06,0.25,4.16,30.0,3.66,3.63
+children,0.1,0.4,4.11,18.67,3.65,3.31
+stays_in_week_nights,2.5,1.91,2.86,24.28,-0.12,0.01
+stays_in_weekend_nights,0.93,1.0,1.38,7.17,0.19,0.07
+lead_time,104.01,106.86,1.35,1.7,-0.87,-0.15
+total_of_special_requests,0.57,0.79,1.35,1.49,0.75,0.43

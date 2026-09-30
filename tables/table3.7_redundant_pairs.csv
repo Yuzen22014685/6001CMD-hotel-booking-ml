@@ -1,0 +1,8 @@
+Feature A,Feature B,Measure,Value
+hotel,agent,Cramer's V,0.8798
+reserved_room_type,assigned_room_type,Cramer's V,0.7764
+previous_bookings_not_canceled,is_repeated_guest,Spearman rho,0.7571
+distribution_channel,agent,Cramer's V,0.7161
+market_segment,distribution_channel,Cramer's V,0.692
+market_segment,agent,Cramer's V,0.6288
+arrival_date_year,arrival_date_week_number,Spearman rho,-0.5448

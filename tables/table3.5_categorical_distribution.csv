@@ -1,0 +1,11 @@
+Feature,Levels,Most common level,Share of most common (%),Levels under 1% share
+is_repeated_guest,2,0,96.81,0
+deposit_type,3,No Deposit,87.65,1
+distribution_channel,5,TA/TO,81.98,2
+meal,5,BB,77.32,2
+customer_type,4,Transient,75.06,1
+reserved_room_type,10,A,72.03,5
+hotel,2,City Hotel,66.45,0
+market_segment,8,Online TA,47.3,3
+country,177,PRT,40.7,164
+arrival_date_month,12,August,11.62,0

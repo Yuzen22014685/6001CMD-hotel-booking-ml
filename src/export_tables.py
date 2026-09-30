@@ -23,6 +23,15 @@ TITLES = {
     "table2.2_unsupervised_results": "K-Means Clustering Evaluated Against the True Labels",
     "table2.3_scalability_data_requirements": "Training Time and Performance by Training Set Size",
     "table2.4_paradigm_summary": "Summary Comparison of Supervised and Unsupervised Learning",
+    "table3.1_missing_values": "Explicit and Disguised Missing Values with Cancellation Rates",
+    "table3.2_duplicates": "Duplicate Record Analysis and Effect on Model Evaluation",
+    "table3.3_outliers_iqr": "IQR Outlier Analysis of Numerical Features",
+    "table3.4_skewness": "Skewness Before and After Transformation",
+    "table3.5_categorical_distribution": "Distribution of Categorical Features",
+    "table3.6_target_association": "Association of Features with the Target",
+    "table3.7_redundant_pairs": "Redundant Feature Pairs",
+    "table3.8_class_imbalance": "Class Balance Under Different Conditions",
+    "table3.9_noise_inconsistency": "Noise and Inconsistency Checks",
 }
 
 FONT_NAME = "Times New Roman"

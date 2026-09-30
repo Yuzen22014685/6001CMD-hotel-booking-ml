@@ -1,0 +1,16 @@
+Check,Category,Records,Records (%),Cancel rate (%)
+meal 'Undefined' (same meaning as 'SC'),Inconsistent coding,"1,169",0.979,24.47
+Zero guests in booking,Invalid record,180,0.151,13.89
+Children or babies without any adult,Implausible record,223,0.187,37.67
+Ten or more adults in one booking,Implausible record,13,0.011,100.0
+Zero nights booked,Questionable record,715,0.599,4.9
+Negative ADR,Invalid value,1,0.001,0.0
+ADR = 0 outside Complementary segment,Questionable value,"1,279",1.071,9.46
+Not flagged repeated guest but has previous bookings,Inconsistency,"6,237",5.224,88.06
+Flagged repeated guest but no previous bookings,Inconsistency,590,0.494,5.42
+Segment 'Direct' but channel not 'Direct',Inconsistency,330,0.276,6.36
+Segment 'Online TA' but channel not 'TA/TO',Inconsistency,324,0.271,16.36
+Week number differs from ISO week of arrival,Inconsistency,"64,054",53.651,35.41
+Check-Out date differs from arrival + nights,Inconsistency,27,0.023,0.0
+Cancellation recorded after arrival date,Inconsistency,0,0.0,
+Identical features but conflicting labels,Label noise,"2,084",1.746,40.21

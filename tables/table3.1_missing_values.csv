@@ -1,0 +1,8 @@
+Feature,Missing (NaN),Placeholder ('Undefined'),Total missing,Missing (%),Cancel rate if missing (%),Cancel rate if present (%)
+company,"112,593",0,"112,593",94.307,38.22,17.52
+agent,"16,340",0,"16,340",13.686,24.66,39.0
+meal,0,"1,169","1,169",0.979,24.47,37.17
+country,488,0,488,0.409,13.73,37.14
+distribution_channel,0,5,5,0.004,80.0,37.04
+children,4,0,4,0.003,100.0,37.04
+market_segment,0,2,2,0.002,100.0,37.04
