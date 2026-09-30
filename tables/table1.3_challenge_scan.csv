@@ -1,0 +1,13 @@
+Check,Result
+Arrival period covered,2015-07-01 to 2017-08-31
+Exact duplicate rows,"31,994 (26.80%)"
+Bookings with zero guests,180 (0.15%)
+Bookings with zero nights,715 (0.60%)
+Negative ADR values,1 (0.00%)
+"ADR above 1,000","1 (max = 5,400.00)"
+Maximum lead_time (days),737
+meal recorded as 'Undefined',"1,169 (0.98%)"
+Unique country codes,177
+Unique agent IDs,333
+Unique company IDs,352
+Assigned room differs from reserved,"14,917 (12.49%)"
